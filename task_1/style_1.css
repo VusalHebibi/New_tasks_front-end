@@ -1,0 +1,94 @@
+/* task_1 start */
+#container {
+    width: 630px;
+    height: inherit;
+    border: 5px solid #0000ff;
+    padding: 23px 20px 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 6px 4px 20px 2px #000000;
+}
+
+.forms {
+    width: 100%;
+    height: inherit;
+    padding: 5px 0px 5px 3px;
+}
+
+.forms .aa, .bb {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.forms .cc, .dd {
+    width: 179px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.forms .ff {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+}
+
+.forms .mm {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.forms input {
+    border: 2px solid #0000002a;
+    border-radius: 3px;
+}
+
+.aa, .bb, .cc, .ff, .mm {
+    margin-bottom: 5px;
+}
+
+.forms .fieldsetDiv {
+    padding: 12px;
+}
+
+.forms .legendDiv {
+    color:#0000ff;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+select {
+    border: 2px solid #0000002a;
+    border-radius: 3px;
+}
+
+.infoDiv input {
+    cursor: pointer;
+}
+
+.formsDiv {
+    margin-bottom: 15px;
+}
+
+.buttons .btn_1 {
+    padding: 0px 30px;
+    margin: 0px 30px 0px 20px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+.buttons .btn_2 {
+    padding: 0px 78px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+}
+
+/* task_1 end */

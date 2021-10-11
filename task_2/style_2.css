@@ -1,0 +1,69 @@
+#container {
+    width: 700px;
+    height: 250px;
+    background-image: url(./img/xps-1gLdTsX3_70-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#container .containerNav .items {
+    display: inline-block;
+}
+
+.containerNav, .head_text {
+    margin-left: 20px;
+}
+
+.head_img {
+    background-color: #333333;
+    height: 60px;
+    display: flex; 
+    align-items: center;
+    border-radius: inherit;
+}
+
+.container__display {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+
+.containerNav .link {
+    color: rgba(255, 255, 255, 0.664);
+    margin: 0px 10px 0px 0px;
+    transition: .3s all ease;
+    font-size: 14px;
+}
+
+.containerNav .link:hover {
+    color: white;
+}
+
+
+.section_2 {
+    width: 650px;
+    height: 250px;
+    margin:  0 auto;
+}
+
+.section_2 .section_2_display  {
+    width: 100%;
+    height: 100%;
+}
+
+.section_2 h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #83923a;
+}
+
+.section_2 p {
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+}

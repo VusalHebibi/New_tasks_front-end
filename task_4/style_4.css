@@ -1,0 +1,33 @@
+#container p:nth-child(1) {
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#container p:nth-child(2),
+#container p:nth-child(3),
+#container p:nth-child(4),
+#container p:nth-child(5),
+#container p:nth-child(6) {
+    color: red;
+}
+
+#container p:nth-child(7) {
+    color:#a757e5;
+}
+
+#container p:nth-child(8) {
+    color: red;
+    background-color: #87ceeb;
+}
+
+#container p:nth-child(9) {
+    color: yellow;
+    background-color: #a0a0a0;
+    display: inline;
+}
+
+
+ 
+
+

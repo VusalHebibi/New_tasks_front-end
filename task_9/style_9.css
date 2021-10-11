@@ -1,0 +1,13 @@
+#container .container_text {
+    width: 60%;
+    padding: 20px 0px 0px 20px;
+}
+
+.container_text h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.container_text p:nth-child(3) {
+    margin: 30px 0px 30px 0px;
+}

@@ -1,0 +1,23 @@
+
+td {
+    padding: 7px 40px;
+}
+
+table, th {
+    border: 1px solid black;
+    border-collapse: collapse ;
+    padding: 05px 100px;
+}
+
+td {
+    border-right: 1px solid black;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+

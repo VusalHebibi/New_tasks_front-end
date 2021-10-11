@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/task_1/style_1.css">
+    <link rel="stylesheet" href="/task_1/common_1.css">
+    <title>P124</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1 class="head">Reservation Request</h1>
+
+        <form class="forms">
+            <div class="formsDiv">
+                <fieldset class="fieldsetDiv">
+                    <legend class="legendDiv">General Information</legend>
+
+                    <div class="aa">
+                        <label for="arrivalDate">Arrival date :</label>
+                        <input type="text" id="arrivalDate">
+                    </div>
+
+                    <div class="bb">
+                        <label for="nights">Nights :</label>
+                        <input type="text" id="nights">
+                    </div>
+
+                    <div class="cc">
+                        <label for="adults">Adults :</label>
+
+                        <select>
+                            <option value="1" id="adults">1</option>
+                            <option value="2" id="adults">2</option>
+                            <option value="3" id="adults">3</option>
+                            <option value="4" id="adults">4</option>
+                        </select>
+                    </div>
+
+
+                    <div class="dd">
+                        <label for="children">Children :</label>
+
+                        <select>
+                            <option value="0" id="children">0</option>
+                            <option value="2" id="children">2</option>
+                            <option value="3" id="children">3</option>
+                            <option value="4" id="children">4</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+
+
+            <div class="formsDiv">
+                <fieldset class="fieldsetDiv infoDiv">
+                    <legend class="legendDiv">Preferences</legend>
+
+                    <div class="ff">
+                        <label>Room type :</label>
+
+                        <div class="vusal">
+                            <input type="radio" name="a">
+                            <label>Standad</label>
+
+                            <input type="radio" name="a">
+                            <label>Business</label>
+
+                            <input type="radio" name="a">
+                            <label>Suite</label>
+                        </div>
+                    </div>
+
+                    <div class="mm">
+                        <label for="roomType">Room type :</label>
+                        <div class="qadir">
+                            <input type="radio" name="a">
+                            <label>King</label>
+
+                            <input type="radio" name="a">
+                            <label>Double</label>
+                        </div>
+                    </div>
+
+                    <div class="kk" style="margin-left: 20px;">
+                        <input type="checkbox" name="smoking" id="checkbox">
+                        <label for="checkbox">Smoking</label>
+                    </div>
+
+                </fieldset>
+            </div>
+
+
+
+            <div class="formsDiv">
+                <fieldset class="fieldsetDiv infoDiv">
+                    <legend class="legendDiv">Contact Information</legend>
+
+                    <div class="ll">
+
+                        <div class="bb">
+                            <label for="name">Name :</label>
+                            <input type="name" id="name" name="name">
+                        </div>
+
+                        <div class="bb">
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" name="email" placeholder="vusalhbibi@gmail.com">
+                        </div>
+
+                        <div class="bb">
+                            <label for="tel">Phone :</label>
+                            <input type="tel" id="tel" name="phone" placeholder="+994555046060">
+                        </div>
+
+                </fieldset>
+            </div>
+        </form>
+
+        <div class="buttons">
+            <button type="submit" class="btn_1 hover">Submit Reservation</button>
+            <button type="reset" class="btn_2 hover">Clear</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
